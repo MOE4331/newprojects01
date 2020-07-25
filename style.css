@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;       
+    background-color: #506566;
+    }
+    btn btn-default {
+        background-color: #23354B;
+        color: #CDB09E;
+        padding: 25px;
+        margin: 5px;
+        }
+        h1.top{
+          text-align-last: center;
+          
+          background-origin: padding-box;
+          border-style: groove;
+          background-color: #567676
+          
+          
+          
+
+        }
+        div.media-body{
+
+            font-style: italic;
+          border-style: groove;
+          background-color: khaki;
+
+        }
+        body.a222{
+            text-align: left;
+            font-family: initial;
+            background-origin: padding-box;
+          border-style: groove;
+          background-color: #567676
+           
+
+        }
+        div.r{
+            font-weight: 500;
+            font-style: italic;
+            background-color: royalblue
+           
+        }
+        div.thumbnail{
+            text-align-last: center;
+          
+          background-origin: padding-box;
+          border-style: groove;
+          background-color: #567676
+        }
+        div.media-left media-top{
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            width: 150px;
+        }
+        h1.a1{
+            text-align-last: left;
+          
+          background-origin: padding-box;
+          border-style: solid;
+          background-color:grey
+
+        }
+        h1.open{
+            text-align: left;
+            background-origin: padding-box;
+          border-style: groove;
+          background-color: gray;
+
+        }
+        section.a12{
+            text-align: left;
+            background-origin: padding-box;
+          border-style: groove;
+          background-color: lightsteelblue;
+
+        }
+        .R{
+            text-align: left;
+            background-origin: padding-box;
+          border-style: groove;
+          background-color: teal;
+        }
+       body.a222{
+           background-color: teal
+       }

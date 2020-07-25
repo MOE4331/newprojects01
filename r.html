@@ -1,0 +1,88 @@
+
+<html>
+    <head>
+      <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <h1 class="top">My Resturant</h1>
+        <hr/>
+        <div class="BACK">
+            
+            <button type="button" class="btn btn-default"><a href="index.html">HOME</a></button>
+            
+          </div>
+
+        
+        <form class="atop">
+            
+            <form action="c.php" method="POST">
+                <label for="fname">Full name:</label ><br>
+                <input type="text" id="fname" name="fname" value="" required><br>
+                <label for="email">email:</label><br>
+                <input type="email" id="email" name="email" value=""required><br><br>
+                <label for="phone">Phone Number:</label><br>
+                <input type="phone" id="phone" name="phone" value=""required><br>
+
+
+                <input type="submit" value="Submit">
+              </form> 
+          </form>
+          <section class="a12">
+            <article class="a1">
+                <h1 class="open">Opening Hours</h1>
+                <p>MONDEY&&TUESDAY</p>
+                <p> 9:00AM - 4:00PM</p>
+                <p>WEDNESDAY&&THURSDAY</p>
+                <p>9:00AM--MIDNIGHT</p>
+                <p>FRIDAY&&SATURDAY</p>
+                <p>9:00AM--MIDNIGHT</p>
+                <p>SUNDAY</p>
+                <p>9:00AM--11:PM</p>
+
+              </article>
+
+          </section>
+          
+
+
+
+
+    <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
+</html>
